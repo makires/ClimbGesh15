@@ -23,7 +23,6 @@
 		BCD413B92704E5750033CD99 /* ListOfRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */; };
 		BCD413BD2705E72A0033CD99 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413BC2705E72A0033CD99 /* AboutAppView.swift */; };
 		BCD413C427061C750033CD99 /* MapUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413C327061C750033CD99 /* MapUI.swift */; };
-		BCD413C6270635B60033CD99 /* RouteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413C5270635B60033CD99 /* RouteDetailsView.swift */; };
 		BCF1F7952715749400ACCBE6 /* MapViewAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF1F7942715749400ACCBE6 /* MapViewAll.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfRoutesView.swift; sourceTree = "<group>"; };
 		BCD413BC2705E72A0033CD99 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
 		BCD413C327061C750033CD99 /* MapUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUI.swift; sourceTree = "<group>"; };
-		BCD413C5270635B60033CD99 /* RouteDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailsView.swift; sourceTree = "<group>"; };
 		BCF1F7942715749400ACCBE6 /* MapViewAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */,
-				BCD413C5270635B60033CD99 /* RouteDetailsView.swift */,
 				BCD413B62704E0110033CD99 /* ListOfCragsView.swift */,
 				BCD413B42704D2480033CD99 /* GuidbookView.swift */,
 				BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */,
@@ -240,7 +237,6 @@
 				BC5A64282710B5490055B757 /* ShowPDFView.swift in Sources */,
 				BCD413AE2704D1730033CD99 /* GuidbookVM.swift in Sources */,
 				BCD413C427061C750033CD99 /* MapUI.swift in Sources */,
-				BCD413C6270635B60033CD99 /* RouteDetailsView.swift in Sources */,
 				BCD413B72704E0110033CD99 /* ListOfCragsView.swift in Sources */,
 				BCD4139E2704D1560033CD99 /* ClimbGesh15App.swift in Sources */,
 			);
