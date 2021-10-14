@@ -44,8 +44,8 @@ struct ListOfRoutesView: View {
                     
                     let gridItems = [
                         
-                        GridItem(.fixed(200)),
-                        GridItem(.flexible(minimum: 50), alignment: .leading),
+                        GridItem(.fixed(230)),
+                        GridItem(.flexible(minimum: 60), alignment: .leading),
                         GridItem(.flexible(minimum: 50))]
                     
                     LazyVGrid(columns: gridItems, alignment: .leading, spacing: 0) {
@@ -68,8 +68,8 @@ struct ListOfRoutesView: View {
                     HStack {
                         let gridItems = [
                             
-                            GridItem(.fixed(210)),
-                            GridItem(.flexible(minimum: 50), alignment: .leading),
+                            GridItem(.fixed(230)),
+                            GridItem(.flexible(minimum: 60), alignment: .leading),
                             GridItem(.flexible(minimum: 50))]
                         
                         LazyVGrid(columns: gridItems, alignment: .leading, spacing: 0) {
