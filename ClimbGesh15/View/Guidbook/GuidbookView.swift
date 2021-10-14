@@ -32,9 +32,7 @@ struct GuidbookView: View {
                             }
                         }
                     }
-                    
                 }
-                
             }
             .navigationTitle("ClimbGesh")
             .listStyle(.grouped)

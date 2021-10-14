@@ -12,9 +12,7 @@ struct MapViewAll: View {
     @State var crag: Crag? = nil
     var body: some View {
         if isShowListOfRoutes {
-            
             NavigationView {
-                
                 ListOfRoutesView(imagesOfCrag: crag?.imagesOfCrag ?? ["empty"],
                                  routes: crag?.routes,
                                  nameOfCrag: crag?.nameCrag)
@@ -25,14 +23,10 @@ struct MapViewAll: View {
                             } label: {
                                 Text("Назад")
                             }
-
                         }
                     }
-                
             }
-            
         } else {
-            
             MapUI(isShowListOfRoutes: $isShowListOfRoutes, crag: $crag)
         }
         

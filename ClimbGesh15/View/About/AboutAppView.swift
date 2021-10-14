@@ -11,10 +11,6 @@ struct AboutAppView: View {
     @StateObject var vm = AboutAppVM()
     @State private var isShowPDFCamels = false
     @State private var isShowPDFMundybash = false
-    
-   // ????????????
-//    @State private var valueForProgressCamels = 0.5
-//    @State private var valueForProgressMundybash = 0.2
 
     @State private var isStartDownloadingCamels = false
     @State private var isStartDownloadingMundybash = false
@@ -120,8 +116,6 @@ struct AboutAppView: View {
                     let urlForMundybash = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("mundybash.pdf")
                     ShowPDFView(url: urlForMundybash)
                 }
-                    
-                
                 .onAppear {
                     vm.checkIsDownloadedCamelsPDF()
                     vm.checkIsDownloadedMundybashPDF()

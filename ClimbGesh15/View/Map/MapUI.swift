@@ -40,9 +40,9 @@ struct MapUI: UIViewRepresentable {
         
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             
-            guard let cragAnnotation = annotation as? Crag else { return nil }
+            guard annotation is Crag else { return nil }
             
-            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "crag") as? MKMarkerAnnotationView ?? MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "crag")
+            let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "crag") as? MKMarkerAnnotationView ?? MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "crag")
             
             annotationView.glyphText = "🏔"
             annotationView.clusteringIdentifier = "crags"
@@ -60,9 +60,6 @@ struct MapUI: UIViewRepresentable {
                 self.parent.isShowListOfRoutes = true
                 self.parent.crag = crag
             }
-            // MARK: - чтобы показать View через SwiftUI
-            // необходимо использовать @Binding , parent и работма с координатором
-// https://www.hackingwithswift.com/books/ios-swiftui/customizing-mkmapview-annotations
         }
     }
     
@@ -80,11 +77,5 @@ struct MapUI: UIViewRepresentable {
         }
         return crags
     }
-    
 }
 
-//struct MapUI_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MapUI(isShowListOfRoutes: .constant(false), crag: <#Binding<Crag?>#>)
-//    }
-//}
