@@ -54,7 +54,6 @@ extension Crag: MKAnnotation {
 // MARK: - трасса на скале
 class Route: Decodable, Identifiable {
     let id = UUID()
-    let number: Int?
     let name: String
     let grade: String
     let bolts: String
