@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC46CBDD2716093C0028A134 /* VirtualModelOfCragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */; };
 		BC5A6424270ED0E70055B757 /* AboutAppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A6423270ED0E70055B757 /* AboutAppVM.swift */; };
 		BC5A64262710B0520055B757 /* PDFViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A64252710B0520055B757 /* PDFViewUI.swift */; };
 		BC5A64282710B5490055B757 /* ShowPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A64272710B5490055B757 /* ShowPDFView.swift */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualModelOfCragView.swift; sourceTree = "<group>"; };
 		BC5A6423270ED0E70055B757 /* AboutAppVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVM.swift; sourceTree = "<group>"; };
 		BC5A64252710B0520055B757 /* PDFViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewUI.swift; sourceTree = "<group>"; };
 		BC5A64272710B5490055B757 /* ShowPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPDFView.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */,
 				BCD413B62704E0110033CD99 /* ListOfCragsView.swift */,
 				BCD413B42704D2480033CD99 /* GuidbookView.swift */,
-				BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */,
 			);
 			path = Guidbook;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 				BCD413B92704E5750033CD99 /* ListOfRoutesView.swift in Sources */,
 				BCD413BD2705E72A0033CD99 /* AboutAppView.swift in Sources */,
 				BCF1F7952715749400ACCBE6 /* MapViewAll.swift in Sources */,
-				BC46CBDD2716093C0028A134 /* VirtualModelOfCragView.swift in Sources */,
 				BC5A64282710B5490055B757 /* ShowPDFView.swift in Sources */,
 				BCD413AE2704D1730033CD99 /* GuidbookVM.swift in Sources */,
 				BCD413C427061C750033CD99 /* MapUI.swift in Sources */,
