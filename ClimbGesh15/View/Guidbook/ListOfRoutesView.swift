@@ -30,7 +30,7 @@ struct ListOfRoutesView: View {
                             VStack {
                                 Image(nameImage)
                                     .resizable()
-                                    .scaledToFit()
+                                    .scaledToFill()
                                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                                     
                             }
@@ -44,7 +44,7 @@ struct ListOfRoutesView: View {
                     
                     let gridItems = [
                         
-                        GridItem(.fixed(230)),
+                        GridItem(.fixed(240)),
                         GridItem(.flexible(minimum: 60), alignment: .leading),
                         GridItem(.flexible(minimum: 50))]
                     

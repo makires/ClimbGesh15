@@ -12,7 +12,7 @@
                     "id": 0,
                     "nameCrag":"Трапеция",
                     "imageCrag":"trapezoidMain",
-                    "imagesOfCrag": ["trapezoidEast", "trapezoidSouth", "trapezoidWest"],
+                    "imagesOfCrag": ["trapezoidMain", "trapezoidSouth", "trapezoidWest"],
                     "coordinatesOfCrag": {
                         "latitude": 52.964906,
                         "longitude": 87.911511
@@ -343,17 +343,17 @@
                             "bolts": ""
                         },
                         {
-                            "name": "?",
+                            "name": "Второй",
                             "grade": "6с",
                             "bolts": "9"
                         },
                         {
-                            "name": "?",
+                            "name": "Третий",
                             "grade": "6с",
                             "bolts": "9"
                         },
                         {
-                            "name": "?",
+                            "name": "Четвертый",
                             "grade": "6c",
                             "bolts": "9"
                         },
@@ -364,15 +364,15 @@
                             "bolts": "8"
                         },
                         {
-                            "name": "?",
-                            "grade": "7a-?",
+                            "name": "Шестой",
+                            "grade": "7a❓",
                             "info" : "прохождений нет",
                             "bolts": "8"
                         },
                         
                         {
-                            "name": "?",
-                            "grade": "7a-?",
+                            "name": "Седьмлй",
+                            "grade": "7a❓",
                             "info" : "прохождений нет",
                             "bolts": "8"
                         }
@@ -394,7 +394,7 @@
                             "bolts": "9"
                         },
                         {
-                            "name": "?",
+                            "name": "Северный",
                             "grade": "7b",
                             "bolts": "9"
                         },
@@ -404,8 +404,8 @@
                             "bolts": "9"
                         },
                         {
-                            "name": "?",
-                            "grade": "7b-? ",
+                            "name": "Западный",
+                            "grade": "7b❓ ",
                             "info": "прохождений нет",
                             "bolts": "9"
                         }
@@ -447,12 +447,12 @@
                         {
                             "name": "Мультипитч 3",
                             "grade": "6a/6b",
-                            "bolts": ""
+                            "bolts": "❓"
                         },
                         {
                             "name": "Мультипитч 4",
                             "grade": "6a/6b",
-                            "bolts": ""
+                            "bolts": "❓"
                         },
                         {
                             "name": "Барбос",
@@ -480,23 +480,23 @@
                         {
                             "name": "маршрут 1",
                             "grade": "6a",
-                            "bolts": "?"
+                            "bolts": "❓"
                             
                         },
                         {
                             "name": "маршрут 2",
                             "grade": "6b",
-                            "bolts": "?"
+                            "bolts": "❓"
                         },
                         {
                             "name": "маршрут 3",
                             "grade": "6b",
-                            "bolts": "?"
+                            "bolts": "❓"
                         },
                         {
                             "name": "маршрут 4",
                             "grade": "6b",
-                            "bolts": "?"
+                            "bolts": "❓"
                         }
                     ]
                 },
@@ -512,19 +512,19 @@
                     "routes": [
                         {
                             "name": "маршрут 1",
-                            "grade": "7",
-                            "bolts": "?"
+                            "grade": "7c❓",
+                            "bolts": "❓"
                             
                         },
                         {
                             "name": "маршрут 2",
-                            "grade": "7",
-                            "bolts": "?"
+                            "grade": "7c❓",
+                            "bolts": "❓"
                         },
                         {
                             "name": "маршрут 3",
-                            "grade": "7a-7b",
-                            "bolts": "?"
+                            "grade": "7b❓",
+                            "bolts": "❓"
                         }
                     ]
                 }
@@ -553,19 +553,19 @@
                     "routes": [
                         {
                             "name": "Дуга",
-                            "grade": " > 8",
+                            "grade": "8a❓",
                             "bolts": "7",
                             "info": "прохождений нет"
                         },
                         {
-                            "name": "?",
+                            "name": "Second",
                             "grade": "7c",
-                            "bolts": "?"
+                            "bolts": "❓"
                         },
                         {
-                            "name": "?",
-                            "grade": "7b-7c",
-                            "bolts": "?",
+                            "name": "Third",
+                            "grade": "7c❓",
+                            "bolts": "❓",
                             "info": "прохождений нет"
                         },
                         {
