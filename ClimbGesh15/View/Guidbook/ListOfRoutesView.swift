@@ -43,13 +43,13 @@ struct ListOfRoutesView: View {
                 HStack {
                     
                     let gridItems = [
-                        GridItem(.fixed(60)),
+                        
                         GridItem(.fixed(200)),
                         GridItem(.flexible(minimum: 50), alignment: .leading),
                         GridItem(.flexible(minimum: 50))]
                     
                     LazyVGrid(columns: gridItems, alignment: .leading, spacing: 0) {
-                        Text("#️⃣").padding(.horizontal)
+                        
                         Text("Трасса")
                             .font(.body).fontWeight(.bold)
                             .padding(.horizontal)
@@ -65,11 +65,9 @@ struct ListOfRoutesView: View {
                     List {
                         ForEach(routes! ) { route in
                 
-                NavigationLink(destination: RouteDetailsView(route: route)) {
-                    
                     HStack {
                         let gridItems = [
-                            GridItem(.fixed(30)),
+                            
                             GridItem(.fixed(210)),
                             GridItem(.flexible(minimum: 50), alignment: .leading),
                             GridItem(.flexible(minimum: 50))]
@@ -80,7 +78,7 @@ struct ListOfRoutesView: View {
                             Text(route.bolts)
                         }
                     }
-                }
+                
                 
             }
             
