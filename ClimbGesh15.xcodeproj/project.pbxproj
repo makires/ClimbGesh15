@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC46CBDD2716093C0028A134 /* VirtualModelOfCragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */; };
+		BC5A6424270ED0E70055B757 /* AboutAppVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A6423270ED0E70055B757 /* AboutAppVM.swift */; };
+		BC5A64262710B0520055B757 /* PDFViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A64252710B0520055B757 /* PDFViewUI.swift */; };
+		BC5A64282710B5490055B757 /* ShowPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A64272710B5490055B757 /* ShowPDFView.swift */; };
+		BCD4139E2704D1560033CD99 /* ClimbGesh15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4139D2704D1560033CD99 /* ClimbGesh15App.swift */; };
+		BCD413A02704D1560033CD99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4139F2704D1560033CD99 /* ContentView.swift */; };
+		BCD413A22704D15A0033CD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD413A12704D15A0033CD99 /* Assets.xcassets */; };
+		BCD413A52704D15A0033CD99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD413A42704D15A0033CD99 /* Preview Assets.xcassets */; };
+		BCD413AC2704D1640033CD99 /* geshWork.json in Resources */ = {isa = PBXBuildFile; fileRef = BCD413AB2704D1640033CD99 /* geshWork.json */; };
+		BCD413AE2704D1730033CD99 /* GuidbookVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413AD2704D1730033CD99 /* GuidbookVM.swift */; };
+		BCD413B02704D18C0033CD99 /* ClimbAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413AF2704D18C0033CD99 /* ClimbAreaModel.swift */; };
+		BCD413B52704D2480033CD99 /* GuidbookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413B42704D2480033CD99 /* GuidbookView.swift */; };
+		BCD413B72704E0110033CD99 /* ListOfCragsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413B62704E0110033CD99 /* ListOfCragsView.swift */; };
+		BCD413B92704E5750033CD99 /* ListOfRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */; };
+		BCD413BD2705E72A0033CD99 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413BC2705E72A0033CD99 /* AboutAppView.swift */; };
+		BCD413C427061C750033CD99 /* MapUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413C327061C750033CD99 /* MapUI.swift */; };
+		BCD413C6270635B60033CD99 /* RouteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD413C5270635B60033CD99 /* RouteDetailsView.swift */; };
+		BCF1F7952715749400ACCBE6 /* MapViewAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF1F7942715749400ACCBE6 /* MapViewAll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualModelOfCragView.swift; sourceTree = "<group>"; };
+		BC5A6423270ED0E70055B757 /* AboutAppVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVM.swift; sourceTree = "<group>"; };
+		BC5A64252710B0520055B757 /* PDFViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewUI.swift; sourceTree = "<group>"; };
+		BC5A64272710B5490055B757 /* ShowPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPDFView.swift; sourceTree = "<group>"; };
+		BCD4139A2704D1560033CD99 /* ClimbGesh15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbGesh15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD4139D2704D1560033CD99 /* ClimbGesh15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbGesh15App.swift; sourceTree = "<group>"; };
+		BCD4139F2704D1560033CD99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCD413A12704D15A0033CD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD413A42704D15A0033CD99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD413AB2704D1640033CD99 /* geshWork.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = geshWork.json; sourceTree = "<group>"; };
+		BCD413AD2704D1730033CD99 /* GuidbookVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidbookVM.swift; sourceTree = "<group>"; };
+		BCD413AF2704D18C0033CD99 /* ClimbAreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbAreaModel.swift; sourceTree = "<group>"; };
+		BCD413B42704D2480033CD99 /* GuidbookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidbookView.swift; sourceTree = "<group>"; };
+		BCD413B62704E0110033CD99 /* ListOfCragsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCragsView.swift; sourceTree = "<group>"; };
+		BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfRoutesView.swift; sourceTree = "<group>"; };
+		BCD413BC2705E72A0033CD99 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		BCD413C327061C750033CD99 /* MapUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUI.swift; sourceTree = "<group>"; };
+		BCD413C5270635B60033CD99 /* RouteDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailsView.swift; sourceTree = "<group>"; };
+		BCF1F7942715749400ACCBE6 /* MapViewAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewAll.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD413972704D1560033CD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD413912704D1560033CD99 = {
+			isa = PBXGroup;
+			children = (
+				BCD4139C2704D1560033CD99 /* ClimbGesh15 */,
+				BCD4139B2704D1560033CD99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD4139B2704D1560033CD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4139A2704D1560033CD99 /* ClimbGesh15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD4139C2704D1560033CD99 /* ClimbGesh15 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4139D2704D1560033CD99 /* ClimbGesh15App.swift */,
+				BCD413B32704D1CD0033CD99 /* View */,
+				BCD413B22704D1C30033CD99 /* VM */,
+				BCD413B12704D1B80033CD99 /* Model */,
+				BCD413A12704D15A0033CD99 /* Assets.xcassets */,
+				BCD413A32704D15A0033CD99 /* Preview Content */,
+			);
+			path = ClimbGesh15;
+			sourceTree = "<group>";
+		};
+		BCD413A32704D15A0033CD99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413AB2704D1640033CD99 /* geshWork.json */,
+				BCD413A42704D15A0033CD99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCD413B12704D1B80033CD99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413AF2704D18C0033CD99 /* ClimbAreaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCD413B22704D1C30033CD99 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413AD2704D1730033CD99 /* GuidbookVM.swift */,
+				BC5A6423270ED0E70055B757 /* AboutAppVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		BCD413B32704D1CD0033CD99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4139F2704D1560033CD99 /* ContentView.swift */,
+				BCD413C027060ADD0033CD99 /* Guidbook */,
+				BCD413C127060AF10033CD99 /* About */,
+				BCD413C227060AFB0033CD99 /* Map */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCD413C027060ADD0033CD99 /* Guidbook */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413B82704E5750033CD99 /* ListOfRoutesView.swift */,
+				BCD413C5270635B60033CD99 /* RouteDetailsView.swift */,
+				BCD413B62704E0110033CD99 /* ListOfCragsView.swift */,
+				BCD413B42704D2480033CD99 /* GuidbookView.swift */,
+				BC46CBDC2716093C0028A134 /* VirtualModelOfCragView.swift */,
+			);
+			path = Guidbook;
+			sourceTree = "<group>";
+		};
+		BCD413C127060AF10033CD99 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413BC2705E72A0033CD99 /* AboutAppView.swift */,
+				BC5A64272710B5490055B757 /* ShowPDFView.swift */,
+				BC5A64252710B0520055B757 /* PDFViewUI.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		BCD413C227060AFB0033CD99 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BCD413C327061C750033CD99 /* MapUI.swift */,
+				BCF1F7942715749400ACCBE6 /* MapViewAll.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD413992704D1560033CD99 /* ClimbGesh15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD413A82704D15A0033CD99 /* Build configuration list for PBXNativeTarget "ClimbGesh15" */;
+			buildPhases = (
+				BCD413962704D1560033CD99 /* Sources */,
+				BCD413972704D1560033CD99 /* Frameworks */,
+				BCD413982704D1560033CD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimbGesh15;
+			productName = ClimbGesh15;
+			productReference = BCD4139A2704D1560033CD99 /* ClimbGesh15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD413922704D1560033CD99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BCD413992704D1560033CD99 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BCD413952704D1560033CD99 /* Build configuration list for PBXProject "ClimbGesh15" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD413912704D1560033CD99;
+			productRefGroup = BCD4139B2704D1560033CD99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD413992704D1560033CD99 /* ClimbGesh15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD413982704D1560033CD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD413A52704D15A0033CD99 /* Preview Assets.xcassets in Resources */,
+				BCD413AC2704D1640033CD99 /* geshWork.json in Resources */,
+				BCD413A22704D15A0033CD99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD413962704D1560033CD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5A6424270ED0E70055B757 /* AboutAppVM.swift in Sources */,
+				BC5A64262710B0520055B757 /* PDFViewUI.swift in Sources */,
+				BCD413B02704D18C0033CD99 /* ClimbAreaModel.swift in Sources */,
+				BCD413A02704D1560033CD99 /* ContentView.swift in Sources */,
+				BCD413B52704D2480033CD99 /* GuidbookView.swift in Sources */,
+				BCD413B92704E5750033CD99 /* ListOfRoutesView.swift in Sources */,
+				BCD413BD2705E72A0033CD99 /* AboutAppView.swift in Sources */,
+				BCF1F7952715749400ACCBE6 /* MapViewAll.swift in Sources */,
+				BC46CBDD2716093C0028A134 /* VirtualModelOfCragView.swift in Sources */,
+				BC5A64282710B5490055B757 /* ShowPDFView.swift in Sources */,
+				BCD413AE2704D1730033CD99 /* GuidbookVM.swift in Sources */,
+				BCD413C427061C750033CD99 /* MapUI.swift in Sources */,
+				BCD413C6270635B60033CD99 /* RouteDetailsView.swift in Sources */,
+				BCD413B72704E0110033CD99 /* ListOfCragsView.swift in Sources */,
+				BCD4139E2704D1560033CD99 /* ClimbGesh15App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD413A62704D15A0033CD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD413A72704D15A0033CD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD413A92704D15A0033CD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClimbGesh15/Preview Content\"";
+				DEVELOPMENT_TEAM = CF7ZB6792L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Доступ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilvutikova.ru.ClimbGesh15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD413AA2704D15A0033CD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClimbGesh15/Preview Content\"";
+				DEVELOPMENT_TEAM = CF7ZB6792L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Доступ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilvutikova.ru.ClimbGesh15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD413952704D1560033CD99 /* Build configuration list for PBXProject "ClimbGesh15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD413A62704D15A0033CD99 /* Debug */,
+				BCD413A72704D15A0033CD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD413A82704D15A0033CD99 /* Build configuration list for PBXNativeTarget "ClimbGesh15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD413A92704D15A0033CD99 /* Debug */,
+				BCD413AA2704D15A0033CD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD413922704D1560033CD99 /* Project object */;
+}

@@ -1,0 +1,825 @@
+[
+
+{
+    "id":0,
+    "locationName":"Шерегеш",
+    "climbAreas": [
+        {
+            "id":0,
+            "nameClimbArea":"Верблюды",
+            "imageClimbArea": "camelsMain",
+            "crags": [
+                {
+                    "id": 0,
+                    "nameCrag":"Трапеция",
+                    "imageCrag":"trapezoidMain",
+                    "imagesOfCrag": ["trapezoidEast", "trapezoidSouth", "trapezoidWest"],
+                    "coordinatesOfCrag": {
+                        "latitude": 52.964906,
+                        "longitude": 87.911511
+                    
+                    },
+                    
+                    "routes": [
+                        {
+                            "number": 1,
+                            "name": "Крыло",
+                            "grade": "5c",
+                            "bolts": "9"
+                        },
+                        
+                        {
+                            "number": 3,
+                            "name": "По щели",
+                            "grade": "5c",
+                            "bolts": "9"
+                        },
+                        {
+                            "number": 4,
+                            "name": "Аннушка",
+                            "grade": "6c+",
+                            "bolts": "10"
+                        },
+                        {
+                            "number": 5,
+                            "name": "Анечка",
+                            "grade": "7a+",
+                            "bolts": "9"
+                        },
+                        {
+                            "number": 2,
+                            "name": "Пузики",
+                            "grade": "6a+",
+                            "bolts": "10"
+                        },
+                        {
+                            "number": 6,
+                            "name": "Сибирь",
+                            "grade": "7b",
+                            "bolts": "9"
+                        },
+                        {
+                            "number": 7,
+                            "name": "Серп",
+                            "grade": "7a",
+                            "bolts": "8"
+                        },
+                        
+                        {
+                            "number": 8,
+                            "name": "Красные в городе",
+                            "grade": "6c",
+                            "bolts": "8"
+                        },
+                        {
+                            "number": 9,
+                            "name": "Пластырь",
+                            "grade": "7b",
+                            "bolts": "9"
+                        },
+                        {
+                            "number": 10,
+                            "name": "Бансай",
+                            "grade": "7a",
+                            "bolts": "11"
+                        },
+                        {
+                            "number": 11,
+                            "name": "Посвящение",
+                            "grade": "7a",
+                            "bolts": "11"
+                        },
+                        {
+                            "number": 12,
+                            "name": "Откровение",
+                            "grade": "8a",
+                            "bolts": "11"
+                        },
+                        {
+                            "number": 13,
+                            "name": "Начало",
+                            "grade": "5c",
+                            "bolts": "9"
+                        }
+                    ]
+                },
+                {
+                    "id":1,
+                    "nameCrag":"Подкова",
+                    "imageCrag":"horseShoeMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.966018,
+                    "longitude": 87.912381
+                    },
+                    "routes": [
+                        {
+                            "name": "Нормально",
+                            "grade": "5с",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Снежный барс",
+                            "grade": "5с",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Апрель",
+                            "grade": "5с",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Будян",
+                            "grade": "5с",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Разлом",
+                            "grade": "5a",
+                            "bolts": "5"
+                        },
+                        {
+                            "name": "Лыжня",
+                            "grade": "5с",
+                            "bolts": "7"
+                        },
+                        {
+                            "name": "Помутись",
+                            "grade": "6a",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Паралимпиец",
+                            "grade": "5с",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Каменный поцелуй",
+                            "grade": "6a+",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Оптимизм",
+                            "grade": "5с+",
+                            "bolts": "7"
+                        },
+                        {
+                            "name": "Антохен",
+                            "grade": "6a+",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Победа",
+                            "grade": "6b",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Наполеон",
+                            "grade": "7a+",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Октябрь",
+                            "grade": "7b",
+                            "bolts": "12"
+                        },
+                        {
+                            "name": "Андрюша",
+                            "grade": "7a",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Мираж",
+                            "grade": "6b",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Не восьмёрка",
+                            "grade": "7c",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Башня",
+                            "grade": "6a",
+                            "bolts": "10"
+                        },
+                        {
+                            "name": "Самурай",
+                            "grade": "7c",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Белка-летяга",
+                            "grade": "6a+",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Кедр",
+                            "grade": "6c",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Брусничка",
+                            "grade": "6a+",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Рябинка",
+                            "grade": "7a",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Август",
+                            "grade": "6c",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Фантазия",
+                            "grade": "6b",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Кацо",
+                            "grade": "7a",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Валькирия",
+                            "grade": "6с",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Возвращение",
+                            "grade": "7a",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Родина",
+                            "grade": "7a",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Полярная звезда",
+                            "grade": "7a",
+                            "bolts": "9"
+                        }
+                        
+                    ]
+                },
+                {
+                    "id":2,
+                    "nameCrag":"Тридесятое королевство",
+                    "imageCrag":"kingdomMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.967124,
+                    "longitude": 87.912135
+                    },
+                    "routes": [
+                        {
+                            "name": "Спелеолог",
+                            "grade": "5a",
+                            "bolts": "13",
+                            "length": "24м"
+                        },
+                        {
+                            "name": "Тридесятое королевство",
+                            "grade": "5c",
+                            "bolts": "13",
+                            "length": "30м"
+                        },
+                        {
+                            "name": "Блинная",
+                            "grade": "5c",
+                            "bolts": "13",
+                            "length": "30м"
+                        },
+                        {
+                            "name": "Изумрудная",
+                            "grade": "5c",
+                            "bolts": "11",
+                            "length": "30м"
+                        },
+                        {
+                            "name": "Прокопа",
+                            "grade": "5a",
+                            "bolts": "11",
+                            "length": "30м"
+                        }
+                    ]
+                },
+                {
+                    "id":3,
+                    "nameCrag":"III столб",
+                    "imageCrag":"thirdColumnMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.969186,
+                    "longitude": 87.911848
+                    },
+                    "routes": [
+                        {
+                            "name": "Тундра",
+                            "grade": "7a",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Молния",
+                            "grade": "6a+",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Дети севера",
+                            "grade": "6a",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Карниз",
+                            "grade": "6a",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "Грибочек",
+                            "grade": "6b",
+                            "bolts": ""
+                        },
+                        {
+                            "name": "?",
+                            "grade": "6с",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "6с",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "6c",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "По углу",
+                            "grade": "6a",
+                            "info" : "",
+                            "bolts": "8"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "7a-?",
+                            "info" : "прохождений нет",
+                            "bolts": "8"
+                        },
+                        
+                        {
+                            "name": "?",
+                            "grade": "7a-?",
+                            "info" : "прохождений нет",
+                            "bolts": "8"
+                        }
+                    ]
+                },
+                {
+                    "id":4,
+                    "nameCrag":"II столб",
+                    "imageCrag":"secondColumnMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.969621,
+                    "longitude": 87.911930
+                    },
+                    "routes": [
+                        {
+                            "name": "Терминатор",
+                            "grade": "6b",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "7b",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "Плутон",
+                            "grade": "7a",
+                            "bolts": "9"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "7b-? ",
+                            "info": "прохождений нет",
+                            "bolts": "9"
+                        }
+                    ]
+                }
+            ],
+            "pdfGuidbookURL":"https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf",
+            "coordinatesClimbArea": {
+                "latitude": 52.964906,
+                "longitude": 87.911511
+            }
+        },
+        {
+            "id":1,
+            "nameClimbArea":"Сектор Е",
+            "imageClimbArea": "sektorEMain",
+
+            "crags":[
+                {
+                    "id": 0,
+                    "nameCrag":"Пирамида",
+                    "imageCrag":"piramidaMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.949383,
+                    "longitude": 87.841978
+                    },
+                    "routes": [
+                        {
+                            "name": "Кадёвка",
+                            "grade": "6c/6a",
+                            "bolts": "9/8"
+                        },
+                        {
+                            "name": "Бабье лето",
+                            "grade": "6c/6a",
+                            "bolts": "10/9"
+                        },
+                        {
+                            "name": "Мультипитч 3",
+                            "grade": "6a/6b",
+                            "bolts": ""
+                        },
+                        {
+                            "name": "Мультипитч 4",
+                            "grade": "6a/6b",
+                            "bolts": ""
+                        },
+                        {
+                            "name": "Барбос",
+                            "grade": "6c/6a",
+                            "bolts": "10/9"
+                        },
+                        {
+                            "name": "Хозяин тайги",
+                            "grade": "6c/6a",
+                            "bolts": "10/9"
+                        }
+                        
+                    ]
+                },
+                {
+                    "id": 1,
+                    "nameCrag":"Пионерская стенка",
+                    "imageCrag":"pioneerWallMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.950012,
+                    "longitude": 87.843313
+                    },
+                    "routes": [
+                        {
+                            "name": "маршрут 1",
+                            "grade": "6a",
+                            "bolts": "?"
+                            
+                        },
+                        {
+                            "name": "маршрут 2",
+                            "grade": "6b",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "маршрут 3",
+                            "grade": "6b",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "маршрут 4",
+                            "grade": "6b",
+                            "bolts": "?"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "nameCrag":"Северная стена",
+                    "imageCrag":"northWallMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.951897,
+                    "longitude": 87.843087
+                    },
+                    "routes": [
+                        {
+                            "name": "маршрут 1",
+                            "grade": "7",
+                            "bolts": "?"
+                            
+                        },
+                        {
+                            "name": "маршрут 2",
+                            "grade": "7",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "маршрут 3",
+                            "grade": "7a-7b",
+                            "bolts": "?"
+                        }
+                    ]
+                }
+            ],
+            "pdfGuidbookURL":"",
+            "coordinatesClimbArea": {
+            "latitude": 52.949383,
+            "longitude": 87.841978
+            }
+        },
+        {
+            "id":2,
+            "nameClimbArea":"Нижние Сарлыки",
+            "imageClimbArea": "sarlykMain",
+
+            "crags":[
+                {
+                    "id": 0,
+                    "nameCrag":"Нижние Сарлыки",
+                    "imageCrag":"sarlykCragMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 52.927203,
+                    "longitude": 88.024322
+                    },
+                    "routes": [
+                        {
+                            "name": "Дуга",
+                            "grade": " > 8",
+                            "bolts": "7",
+                            "info": "прохождений нет"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "7c",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "?",
+                            "grade": "7b-7c",
+                            "bolts": "?",
+                            "info": "прохождений нет"
+                        },
+                        {
+                            "name": "Духовная сестра",
+                            "grade": "6c/6a",
+                            "bolts": "12/13"
+                        },
+                        {
+                            "name": "Бурундук",
+                            "grade": "6b/6c",
+                            "bolts": "12/13"
+                        },
+                        {
+                            "name": "Медитация",
+                            "grade": "6a/6c",
+                            "bolts": "12/14"
+                        }
+                        
+                    ]
+                }
+            ],
+            "pdfGuidbookURL":"",
+            "coordinatesClimbArea": {
+            "latitude": 52.927203,
+            "longitude": 88.024322
+            }
+        }
+    ]
+},
+{
+    "id":1,
+    "locationName":"Мундыбаш",
+    "climbAreas" : [
+        {
+            "id":0,
+            "nameClimbArea":"Спартак",
+            "imageClimbArea": "spartakMain",
+
+            "crags": [
+                {
+                    "id":0,
+                    "nameCrag":"Спартак",
+                    "imageCrag":"spartakCragMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.198937,
+                    "longitude": 87.237647
+                    },
+                    "routes": [
+                        {
+                            "name": "маршрут 1",
+                            "grade": "5c",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "маршрут 2",
+                            "grade": "5с+",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "Зеркало",
+                            "grade": "6b+",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "Трещина",
+                            "grade": "6b",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "Пасека",
+                            "grade": "6a+",
+                            "bolts": "10"
+                        },
+                        {
+                            "name": "Серега",
+                            "grade": "6b",
+                            "bolts": "10"
+                        },
+                        {
+                            "name": "маршрут 7",
+                            "grade": "6a+",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "маршрут 8",
+                            "grade": "6a+",
+                            "bolts": "?"
+                        },
+                        {
+                            "name": "Бастион",
+                            "grade": "7a+",
+                            "bolts": "?"
+                        }
+                    ]
+                },
+                {
+                    "id":1,
+                    "nameCrag":"Китайская стена",
+                    "imageCrag":"chineseWallMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.200488,
+                    "longitude": 87.241102
+                    },
+                    "routes": []
+                }
+            ],
+            "pdfGuidbookURL":"https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf",
+            "coordinatesClimbArea": {
+            "latitude": 53.200488,
+            "longitude": 87.241102
+            }
+        },
+        {
+            "id":1,
+            "nameClimbArea":"Марина",
+            "imageClimbArea": "marinaMain",
+
+            "crags": [
+                {
+                    "id":0,
+                    "nameCrag":"Марина",
+                    "imageCrag":"marinaCragMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.214447,
+                    "longitude": 87.320951
+                    },
+                    "routes": [
+                        {
+                            "name": "маршрут 1",
+                            "grade": "5c",
+                            "bolts": "?"
+                        }
+                    ]
+                },
+                {
+                    "id":1,
+                    "nameCrag":"Малыш",
+                    "imageCrag":"babyCragMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.214566,
+                    "longitude": 87.321194
+                    },
+                    "routes": [ ]
+                }
+            ],
+            "pdfGuidbookURL":"",
+            "coordinatesClimbArea": {
+            "latitude": 53.214447,
+            "longitude": 87.320951
+            }
+        },
+        {
+            "id":2,
+            "nameClimbArea":"Белое пятно",
+            "imageClimbArea": "whiteMain",
+
+            "crags": [
+                {
+                    "id":0,
+                    "nameCrag":"Вектор",
+                    "imageCrag":"VektorMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.198736,
+                    "longitude": 87.249158
+                    },
+                    "routes": []
+                },
+                {
+                    "id":1,
+                    "nameCrag":"Люден",
+                    "imageCrag":"LudenMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.198736,
+                    "longitude": 87.249158
+                    },
+                    "routes": []
+                },
+                {
+                    "id":2,
+                    "nameCrag":"Белое пятно",
+                    "imageCrag":"whiteSpotMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.198736,
+                    "longitude": 87.249158
+                    },
+                    "routes": []
+                },
+                {
+                    "id":3,
+                    "nameCrag":"Запровалье",
+                    "imageCrag":"zaprovalieMain",
+                    "imagesOfCrag": ["empty"],
+                    "coordinatesOfCrag": {
+                    "latitude": 53.198736,
+                    "longitude": 87.249158
+                    },
+                    "routes": []
+                }
+            ],
+            "pdfGuidbookURL":"https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf",
+            "coordinatesClimbArea": {
+            "latitude": 53.200488,
+            "longitude": 87.241102
+            }
+        }
+        
+    ]
+},
+{
+    "id":2,
+    "locationName":"Поднебесные зубья",
+    "climbAreas": [
+    {
+        "id":0,
+        "nameClimbArea":"Пик Строителей",
+        "imageClimbArea": "pikStroiteleiMain",
+
+        "crags": [
+        {
+            "id":0,
+            "nameCrag":"Пик Строителей",
+            "imageCrag":"pikStroiteleiCragMain",
+            "imagesOfCrag": ["empty"],
+            "coordinatesOfCrag": {
+            "latitude": 53.738626,
+            "longitude": 89.029638
+            },
+            "routes": [ ]
+        }
+        ],
+        "pdfGuidbookURL":"",
+        "coordinatesClimbArea": {
+        "latitude": 53.738626,
+        "longitude": 89.029638
+        }
+    }
+    ]
+},
+{
+    "id":3,
+    "locationName":"Турочак",
+    "climbAreas": [ ]
+},
+{
+    "id":4,
+    "locationName":"Кемерово",
+    "climbAreas": [ ]
+}
+]
