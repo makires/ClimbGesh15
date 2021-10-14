@@ -18,19 +18,14 @@ struct GuidbookView: View {
             List {
                 ForEach(guidbook.locations) { location in
                     Section(header: Text(location.locationName)) {
-                       
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 15) {
-                                
                                 ForEach(location.climbAreas) { climbArea in
-                                    
                                     NavigationLink(destination: ListOfCragsView(climbAreaName: climbArea.nameClimbArea, crags: climbArea.crags )) {
                                         ClimbAreaView(climbArea: climbArea)
-                                            
                                     }
                                     .buttonStyle(.plain)
                                 }
-                                
                                 .onTapGesture {
                                     isShowClimbingArea = true
                                 }
@@ -42,11 +37,7 @@ struct GuidbookView: View {
                 
             }
             .navigationTitle("ClimbGesh")
-//            .navigationBarTitleDisplayMode(.inline)
-            
             .listStyle(.grouped)
-//            .listStyle(.sidebar)
-
         .onAppear(perform: guidbook.loadJSON)
         }
     }
@@ -55,7 +46,6 @@ struct GuidbookView: View {
 struct GuidbookView_Previews: PreviewProvider {
     static var previews: some View {
         GuidbookView()
-            
             .environmentObject(GuidbookVM())
     }
 }
@@ -64,9 +54,6 @@ struct ClimbAreaView: View {
     let climbArea: ClimbArea
     var body: some View {
         VStack {
-//            Color.gray
-//                .frame(width: 200, height: 150)
-//                .cornerRadius(15)
             Image(climbArea.imageClimbArea)
                 .resizable()
                 .scaledToFill()
@@ -74,7 +61,6 @@ struct ClimbAreaView: View {
                 .cornerRadius(15)
             Text(climbArea.nameClimbArea)
         }
-        
     }
 }
 
