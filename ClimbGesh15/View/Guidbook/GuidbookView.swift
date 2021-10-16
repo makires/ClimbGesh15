@@ -15,28 +15,46 @@ struct GuidbookView: View {
         }
     var body: some View {
         NavigationView {
-            List {
-                ForEach(guidbook.locations) { location in
-                    Section(header: Text(location.locationName)) {
-                        ScrollView(.horizontal, showsIndicators: false) {
-                            HStack(spacing: 15) {
-                                ForEach(location.climbAreas) { climbArea in
-                                    NavigationLink(destination: ListOfCragsView(climbAreaName: climbArea.nameClimbArea, crags: climbArea.crags )) {
-                                        ClimbAreaView(climbArea: climbArea)
+            VStack {
+                List {
+                    ForEach(guidbook.locations) { location in
+                        Section(header: Text(location.locationName)) {
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 15) {
+                                    ForEach(location.climbAreas) { climbArea in
+                                        NavigationLink(destination: ListOfCragsView(climbAreaName: climbArea.nameClimbArea, crags: climbArea.crags )) {
+                                            ClimbAreaView(climbArea: climbArea)
+                                        }
+                                        .buttonStyle(.plain)
                                     }
-                                    .buttonStyle(.plain)
-                                }
-                                .onTapGesture {
-                                    isShowClimbingArea = true
+                                    .onTapGesture {
+                                        isShowClimbingArea = true
+                                    }
                                 }
                             }
                         }
+                        .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+                    }
+                    Section(header: HStack { Image(systemName: "info.circle").font(.title2)}) {
+//                        ScrollView {
+                            VStack {
+                                Text("Скалолазные районы Шерегеша это ") + Text("гранитные ")
+                                    .fontWeight(.bold)
+                                + Text("скалы-останцы с маршрутами от ") + Text("5а до 8а ").fontWeight(.bold) + Text("категории сложности.") + Text(" Есть маршруты ") + Text("без прохождения, ").fontWeight(.bold) + Text("их категория обозначена знаком ❓.") + Text(" Если количество болтов на трассе точно неизвестно, то используется этот же символ. ")
+                                   
+                        }
+                            .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5))
+                            .font(.body)
+//                        }
+                        
                     }
                 }
+               
+                
             }
             .navigationTitle("ClimbGesh")
             .listStyle(.grouped)
-        .onAppear(perform: guidbook.loadJSON)
+            .onAppear(perform: guidbook.loadJSON)
         }
     }
 }
