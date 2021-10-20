@@ -105,8 +105,8 @@
                 {
                     "id":1,
                     "nameCrag":"Подкова",
-                    "imageCrag":"horseShoeMain",
-                    "imagesOfCrag": ["empty"],
+                    "imageCrag":"horseShoeWest",
+                    "imagesOfCrag": ["horseShoeWest", "horseShoeSouth", "horseShoeEast"],
                     "coordinatesOfCrag": {
                     "latitude": 52.966018,
                     "longitude": 87.912381
@@ -269,7 +269,7 @@
                     "id":2,
                     "nameCrag":"Тридесятое королевство",
                     "imageCrag":"kingdomMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["kingdomMain"],
                     "coordinatesOfCrag": {
                     "latitude": 52.967124,
                     "longitude": 87.912135
@@ -311,7 +311,7 @@
                     "id":3,
                     "nameCrag":"III столб",
                     "imageCrag":"thirdColumnMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["thirdColumnMain", "thirdColumnWest"],
                     "coordinatesOfCrag": {
                     "latitude": 52.969186,
                     "longitude": 87.911848
@@ -382,7 +382,7 @@
                     "id":4,
                     "nameCrag":"II столб",
                     "imageCrag":"secondColumnMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["secondColumnMain", "secondColumnWest"],
                     "coordinatesOfCrag": {
                     "latitude": 52.969621,
                     "longitude": 87.911930
@@ -428,7 +428,7 @@
                     "id": 0,
                     "nameCrag":"Пирамида",
                     "imageCrag":"piramidaMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["piramidaMain"],
                     "coordinatesOfCrag": {
                     "latitude": 52.949383,
                     "longitude": 87.841978
@@ -471,7 +471,7 @@
                     "id": 1,
                     "nameCrag":"Пионерская стенка",
                     "imageCrag":"pioneerWallMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["pioneerWallMain"],
                     "coordinatesOfCrag": {
                     "latitude": 52.950012,
                     "longitude": 87.843313
@@ -504,7 +504,7 @@
                     "id": 2,
                     "nameCrag":"Северная стена",
                     "imageCrag":"northWallMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["northWallMain", "northWallMainRoutes"],
                     "coordinatesOfCrag": {
                     "latitude": 52.951897,
                     "longitude": 87.843087
@@ -545,7 +545,7 @@
                     "id": 0,
                     "nameCrag":"Нижние Сарлыки",
                     "imageCrag":"sarlykCragMain",
-                    "imagesOfCrag": ["empty"],
+                    "imagesOfCrag": ["sarlykCragMain"],
                     "coordinatesOfCrag": {
                     "latitude": 52.927203,
                     "longitude": 88.024322
